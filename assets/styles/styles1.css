@@ -1,0 +1,419 @@
+@import url("./fonts.css");
+
+*{
+    padding: 0;
+    margin: 0;
+    border: none;
+    outline: none;
+    box-sizing: border-box;
+    font-family: "Montserrat", sans-serif;
+    text-decoration: none;
+
+}
+.container{
+    margin: 0 auto;
+    width: 100%;
+    
+
+}
+
+.headd {
+    background-color: #1E2B3B;
+    height: 100%;
+    opacity: 1;
+}
+
+.hehehe {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+
+body{
+    background-color: #FEF8F7;
+    overflow-x: hidden;
+}
+
+
+.nav .nav-item .nav-link {
+    font-family: "222-5";
+    color: #FEF8F7;
+    font-size: 18px;
+    
+}
+
+.nav .nav-item .nav-link:hover {
+    color: #EE7212;
+    text-decoration: underline;
+    
+}
+
+.section-zayava{
+    height: 900px;
+    display: flex;
+    align-items: center;
+    background-image: url(../imgs/3.png);
+}
+
+.knopka2{
+    background-color: #1E2B3B;
+    width: 175px;
+    height: 55px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.knopka2:hover{
+    background-color: #FEF8F7;
+    width: 175px;
+    height: 55px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+
+}
+
+.sin {
+    font-family: "222-5";
+    color: #FEF8F7;
+    font-size: 15px;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sin:hover {
+    font-family: "222-5";
+    color: #1E2B3B;
+    font-size: 15px;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.pomogite{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+}
+
+.section-sviaz{
+    margin-top: 40px;
+}
+
+.section-sviaz ::placeholder{
+    color: #FEF8F7;
+    font-family: "222-5";
+    font-size: 20px;
+
+}
+
+.mb-5 {
+    margin-bottom: 1rem !important;
+}
+
+.form-control{
+    width: 660px;
+    height: 70px;
+    border: solid 5px #FEF8F7;
+    background-color: #1E2B3B;
+}
+
+.knop .knopka2{
+    width: 360px;
+    height: 70px;
+}
+.knop .knopka2 .sin{
+    font-size: 20px;
+}
+.col-12{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: #EE7212;
+}
+
+.col-12 h2{
+    margin-bottom: 10px;
+}
+
+.col-12 h6{
+    font-family: "222-5";
+    font-size: 24px;
+}
+.section-zayava h2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #FEF8F7;
+    font-family: "222-6";
+}
+
+
+h5{
+    font-family: "222";
+    color: #FEF8F7;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+
+.section-gallery{
+    height: 3000px;
+    display: flex;
+    align-items: center;
+}
+
+
+.photo{
+    display: flex;
+    justify-content: space-around;
+    height: 400px;
+    margin-top: 80px;
+}
+
+.photo img:nth-child(1){
+    opacity: 0.7;
+}
+
+.photo img:nth-child(1):hover{
+    opacity: 1;
+}
+
+.photo img:nth-child(2){
+    opacity: 0.7;
+}
+
+.photo img:nth-child(2):hover{
+    opacity: 1;
+}
+
+.section-gallery h2{
+    margin-top: 150px;
+    text-align: center;
+    font-size: 48px;
+    font-family: "222-6";
+}
+
+.section-gallery h6{
+    text-align: center;
+    font-size: 24px;
+    font-family: "222-6";
+    color: #EE7212;
+    margin-top: 30px;
+}
+
+@media (max-width: 705px) {
+    .container{
+        width:  520px;
+    }
+
+    .form-control{
+        width: 550px;
+        height: 70px;
+        border: solid 5px #FEF8F7;
+        background-color: #1E2B3B;
+    }
+
+}
+
+@media (max-width: 650px) {
+    .container{
+        width:  500px;
+    }
+
+    .form-control{
+        width: 500px;
+        height: 70px;
+        border: solid 5px #FEF8F7;
+        background-color: #1E2B3B;
+    }
+
+    .logo img{
+        width: 300px;
+    }
+
+}
+
+@media (max-width: 520px) {
+    .container{
+        width:  98%;
+    }
+
+    .logo img{
+        width: 300px;
+    }
+
+    .form-control{
+        width: 450px;
+        height: 70px;
+        border: solid 5px #FEF8F7;
+        background-color: #1E2B3B;
+    }
+    
+}
+
+@media (max-width: 480px) {
+    .container{
+        width:  98%;
+    }
+
+    .logo img {
+        width: 250px;
+    }
+
+    .form-control{
+        width: 400px;
+        height: 70px;
+        border: solid 5px #FEF8F7;
+        background-color: #1E2B3B;
+    }
+
+}
+
+@media (max-width: 414px) {
+    .container{
+        width:  98%;
+    }
+
+    .hehehe {
+        display: block
+    ;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .form-control{
+        width: 350px;
+        height: 70px;
+        border: solid 5px #FEF8F7;
+        background-color: #1E2B3B;
+    }
+    .knop .knopka2 {
+        width: 220px;
+        height: 70px;
+    }
+
+    .knopka2:hover{
+        background-color: #FEF8F7;
+        width: 220px;
+        height: 70px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 30px;
+        margin-bottom: 30px;
+    
+    }
+
+}
+
+@media (max-width: 320px) {
+    .container{
+        width:  98%;
+    }
+
+    .form-control{
+        width: 250px;
+        height: 70px;
+        border: solid 5px #FEF8F7;
+        background-color: #1E2B3B;
+    }
+
+    .knop .knopka2 {
+        width: 220px;
+        height: 70px;
+    }
+
+    .knopka2:hover{
+        background-color: #FEF8F7;
+        width: 220px;
+        height: 70px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 30px;
+        margin-bottom: 30px;
+    
+    }
+
+
+
+}
+
+@media (max-width: 375px) {
+    .container{
+        width:  98%;
+    }
+
+    .form-control{
+        width: 250px;
+        height: 70px;
+        border: solid 5px #FEF8F7;
+        background-color: #1E2B3B;
+    }
+
+    .knop .knopka2 {
+        width: 220px;
+        height: 70px;
+    }
+
+    .knopka2:hover{
+        background-color: #FEF8F7;
+        width: 220px;
+        height: 70px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 30px;
+        margin-bottom: 30px;
+    
+    }
+
+}
+
+@media (max-width: 390px) {
+    .container{
+        width:  98%;
+    }
+
+    .form-control{
+        width: 250px;
+        height: 70px;
+        border: solid 5px #FEF8F7;
+        background-color: #1E2B3B;
+    }
+
+    .knop .knopka2 {
+        width: 220px;
+        height: 70px;
+    }
+
+    .knopka2:hover{
+        background-color: #FEF8F7;
+        width: 220px;
+        height: 70px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 30px;
+        margin-bottom: 30px;
+    
+    }
+
+}
+
